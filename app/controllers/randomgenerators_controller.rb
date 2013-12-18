@@ -14,8 +14,8 @@ class RandomgeneratorsController < ApplicationController
   end
 
   def create
-    @randomgenerator = Randomgenerator.create!(params[:randomgenerator])
-    flash[:notice] = "#{@radomgenerator.title} was successfully created."
+    @randomgenerator = Randomgenerator.create(params[:randomgenerator])
+    flash[:notice] = "#{@radomgenerator} was successfully created."
     redirect_to randomgenerators_path
   end
 
@@ -32,8 +32,8 @@ class RandomgeneratorsController < ApplicationController
 
   def destroy
     @randomgenerator = Randomgenerator.find(params[:id])
-    @Randomgenerator.destroy
-    flash[:notice] = "Random Generator '#{@movie.title}' deleted."
+    @randomgenerator.destroy
+    flash[:notice] = "Random Generator '#{@randomgenerator.title}' deleted."
     redirect_to randomgenerators_path
   end
 

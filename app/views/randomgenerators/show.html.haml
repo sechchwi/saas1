@@ -4,6 +4,8 @@
 
 %ul#details
   %li
+    Verse:
+    = @randomgenerator.generate_verse()
 
 = link_to 'Edit', edit_randomgenerator_path(@randomgenerator)
 = button_to 'Delete', randomgenerator_path(@randomgenerator), :method => :delete, :confirm => 'Are you sure?'

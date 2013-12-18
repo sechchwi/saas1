@@ -9,8 +9,8 @@
   %tbody
     - @randomgenerators.each do |randomgenerator|
       %tr
-        %td= randomgenerator.title
-        %td= link_to "Run #{randomgenerator.title}", randomgenerator_path(randomgenerator)
+        %td= randomgenerator.title unless not randomgenerator.is_a?(Randomgenerator)
+        %td= link_to "Run #{randomgenerator.title}", randomgenerator_path(randomgenerator) unless not randomgenerator.is_a?(Randomgenerator)
 
 = link_to 'Add new random generator', new_randomgenerator_path
       

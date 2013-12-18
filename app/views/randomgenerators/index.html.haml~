@@ -5,11 +5,12 @@
   %thead
     %tr
       %th Title
+      %th Run Generator
   %tbody
     - @randomgenerators.each do |randomgenerator|
       %tr
-        %td= randomgenerator.title
-        %td= link_to "Run #{randomgenerator.title}", randomgenerator_path(randomgenerator)
+        %td= randomgenerator.title unless randomgenerator.nil?
+        %td= link_to "Run #{randomgenerator.title}", randomgenerator_path(randomgenerator) unless randomgenerator.nil?
 
 = link_to 'Add new random generator', new_randomgenerator_path
       
