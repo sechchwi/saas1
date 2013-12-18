@@ -2,7 +2,9 @@
 
 %h2 #{@randomgenerator.title}
 
-%ul#details
+%h3 Categories: #{@randomgenerator.query}
+
+%ul#verse
   %li
     Verse:
     - verse = @randomgenerator.generate_verse()

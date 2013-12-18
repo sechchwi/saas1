@@ -2,7 +2,9 @@
 
 %h2 #{@randomgenerator.title}
 
-%ul#details
+%h3 #{@randomgenerator.query}
+
+%ul#verse
   %li
     Verse:
     - verse = @randomgenerator.generate_verse()
@@ -13,6 +15,7 @@
   %li
     = verse.release_date
 
+= link_to 'Rerun Generator', randomgenerator_path(@randomgenerator)
 = link_to 'Edit', edit_randomgenerator_path(@randomgenerator)
 = button_to 'Delete', randomgenerator_path(@randomgenerator), :method => :delete, :confirm => 'Are you sure?'
 = link_to 'Back to generator page', randomgenerators_path

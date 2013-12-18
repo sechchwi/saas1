@@ -1,5 +1,5 @@
 class Movie < ActiveRecord::Base
   def self.all_ratings
-    ["Christ the Center", "Proclaim Christ", "Being Christ's Disciple", "Grow in Christlikeness"]
+    ["Living the New Life", "Proclaim Christ", "Being Christ's Disciple", "Grow in Christlikeness", "Reliance on God's Resources"]
   end
 end
