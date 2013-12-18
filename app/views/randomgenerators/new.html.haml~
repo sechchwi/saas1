@@ -1,0 +1,8 @@
+%h1 Create New Movie
+
+= form_tag randomgenerators_path do
+
+  = label :randomgenerator, :title, 'Title'
+  = text_field :randomgenerator, 'title'
+
+  = submit_tag 'Save Changes'

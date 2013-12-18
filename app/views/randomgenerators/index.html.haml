@@ -1,0 +1,18 @@
+-#  This file is app/views/randomgenerator/index.html.haml
+%h1 Topical Memory System
+
+%table#randomgenerators
+  %thead
+    %tr
+      %th Title
+      %th Run Generator
+  %tbody
+    - @randomgenerators.each do |randomgenerator|
+      %tr
+        %td= randomgenerator.title
+        %td= link_to "Run #{randomgenerator.title}", randomgenerator_path(randomgenerator)
+
+= link_to 'Add new random generator', new_randomgenerator_path
+      
+     
+= link_to 'Back', movies_path

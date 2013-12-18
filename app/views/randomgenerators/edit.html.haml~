@@ -1,0 +1,10 @@
+-# edit.html.haml using partial
+
+%h1 Edit Existing Movie
+
+= form_tag randomgenerator_path(@randomgenerator), :method => :put do
+
+  = label :randomgenerator, :title, 'Title'
+  = text_field :randomgenerator, 'title'
+
+  = submit_tag 'Update Random Generator Info'

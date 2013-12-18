@@ -1,12 +1,12 @@
-class RandomgeneratorsController < ApplicationController
-  def show
+class RandomgeneratorController < ApplicationController
+ def show
     id = params[:id] # retrieve movie ID from URI route
     @randomgenerator = Randomgenerator.find(id) # look up movie by unique ID
     # will render app/views/movies/show.<extension> by default
   end
 
   def index
-    @randomgenerators= Randomgenerator.all
+ 
   end
 
   def new
@@ -16,7 +16,7 @@ class RandomgeneratorsController < ApplicationController
   def create
     @randomgenerator = Randomgenerator.create!(params[:randomgenerator])
     flash[:notice] = "#{@radomgenerator.title} was successfully created."
-    redirect_to randomgenerators_path
+    redirect_to randomgenerator_path
   end
 
   def edit
@@ -31,10 +31,11 @@ class RandomgeneratorsController < ApplicationController
   end
 
   def destroy
-    @randomgenerator = Randomgenerator.find(params[:id])
-    @Randomgenerator.destroy
-    flash[:notice] = "Random Generator '#{@movie.title}' deleted."
-    redirect_to randomgenerators_path
+    @movie = Movie.find(params[:id])
+    @movie.destroy
+    flash[:notice] = "Movie '#{@movie.title}' deleted."
+    redirect_to movies_path
   end
 
+end
 end
