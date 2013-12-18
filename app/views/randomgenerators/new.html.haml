@@ -5,4 +5,8 @@
   = label :randomgenerator, :title, 'Title'
   = text_field :randomgenerator, 'title'
 
+  - all = "Christ the Center, Proclaim Christ, Being Christ's Disciple, Growing in Christlikeness"
+
+  = label :randomgenerator, :query, 'Categories'
+  = select :randomgenerator, :query, ["Christ the Center", "Proclaim Christ", "Being Christ's Disciple", "Growing in Christlikeness", "Christ the Center, Proclaim Christ", "Christ the Center, Being Christ's Disciple", "Christ the Center, Growing in Christlikeness", "Proclaim Christ, Being Christ's Disciple", "Proclaim Christ, Growing in Christlikeness", "Christ the Center, Proclaim Christ, Being Christ's Disciple", "Christ the Center, Being Christ's Disciple, Growing in Christlikeness", "Christ the Center, Proclaim Christ, Growing in Christlikeness", "Proclaim Christ, Growing in Christlikeness, Being Christ's Disciple", all]
   = submit_tag 'Save Changes'

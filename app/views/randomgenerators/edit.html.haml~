@@ -1,10 +1,14 @@
 -# edit.html.haml using partial
 
-%h1 Edit Existing Movie
+%h1 Edit Existing Random Generator
 
 = form_tag randomgenerator_path(@randomgenerator), :method => :put do
 
+  -all = "Proclaim Christ, Christ the Center, Being Christ's Disciples"
   = label :randomgenerator, :title, 'Title'
   = text_field :randomgenerator, 'title'
 
-  = submit_tag 'Update Random Generator Info'
+  = label :randomgenerator, :query, 'Categories'
+  = select :randomgenerator, :query, ["Christ the Center", "Proclaim Christ", "Being Christ's Disciple", "Growing in Christlikeness", "Christ the Center, Proclaim Christ", "Christ the Center, Being Christ's Disciple", "Christ the Center, Growing in Christlikeness", "Proclaim Christ, Being Christ's Disciple", "Proclaim Christ, Growing in Christlikeness", "Christ the Center, Proclaim Christ, Being Christ's Disciple", "Christ the Center, Being Christ's Disciple, Growing in Christlikeness", "Christ the Center, Proclaim Christ, Growing in Christlikeness", "Proclaim Christ, Growing in Christlikeness, Being Christ's Disciple", all]
+
+  = submit_tag 'Update Random Generator'

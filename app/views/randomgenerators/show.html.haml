@@ -5,8 +5,15 @@
 %ul#details
   %li
     Verse:
-    = @randomgenerator.generate_verse()
+    - verse = @randomgenerator.generate_verse()
+  %li
+    = verse.rating
+  %li
+    = verse.title
+  %li
+    = verse.release_date
 
+= link_to 'Rerun Generator', randomgenerator_path(@randomgenerator)
 = link_to 'Edit', edit_randomgenerator_path(@randomgenerator)
 = button_to 'Delete', randomgenerator_path(@randomgenerator), :method => :delete, :confirm => 'Are you sure?'
 = link_to 'Back to generator page', randomgenerators_path

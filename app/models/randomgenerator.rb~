@@ -1,11 +1,11 @@
 class Randomgenerator < ActiveRecord::Base
-
- attr_accessor :title, :query
   
    def generate_verse
-       table = Movie.where{self.query.include?(:rating) == true}
+       query = self.query
+       table = Movie.all.select { |m| m.rating <= query }
        verse = table[0]
        return verse
    end
 
+      
 end

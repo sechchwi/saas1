@@ -1,9 +1,11 @@
 class Randomgenerator < ActiveRecord::Base
   
    def generate_verse
-       table = Movie.where{self.query.include?(:rating) == true}
-       verse = table[0]
+       query = self.query
+       table = Movie.all.select { |m| m.rating <= query }
+       verse = table[rand(table.length)]
        return verse
    end
 
+      
 end
