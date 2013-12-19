@@ -13787,3 +13787,3468 @@ Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 16:57:56 -0700
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-12-18 17:11:19 -0700
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Living the New Life', 'Proclaim Christ', 'Being Christ''s Disciple', 'Grow in Christlikeness', 'Reliance on God''s Resources')[0m
+Rendered movies/index.html.haml within layouts/application (11.2ms)
+Completed 200 OK in 194ms (Views: 164.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:22 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:22 -0700
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:22 -0700
+Served asset /randomgenerator.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:22 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:22 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:22 -0700
+Served asset /randomgenerators.js - 304 Not Modified (1ms)
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 17:11:26 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" 
+Rendered randomgenerators/index.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:26 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:26 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:26 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:29 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.2ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.8ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (62.7ms)
+Completed 200 OK in 73ms (Views: 68.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:29 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:29 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:29 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:29 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:29 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:29 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:29 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:31 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (15.1ms)
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:31 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:31 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:31 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (61.0ms)
+Completed 200 OK in 71ms (Views: 67.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:33 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (1.4ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (46.6ms)
+Completed 200 OK in 64ms (Views: 59.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:33 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:33 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:33 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:33 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:33 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:33 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 17:11:34 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" [0m
+Rendered randomgenerators/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:35 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:35 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:35 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:35 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:38 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (14.6ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:38 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:38 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:38 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:38 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:38 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:38 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:39 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (73.2ms)
+Completed 200 OK in 87ms (Views: 84.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:39 -0700
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:39 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:39 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:39 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:39 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:39 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.6ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (14.3ms)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (16.9ms)
+Completed 200 OK in 27ms (Views: 23.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:40 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (21.7ms)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (18.6ms)
+Completed 200 OK in 28ms (Views: 22.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (28.9ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /randomgenerator.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (17.7ms)
+Completed 200 OK in 89ms (Views: 82.2ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:42 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (25.2ms)
+Completed 200 OK in 37ms (Views: 31.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.3ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (74.5ms)
+Completed 200 OK in 89ms (Views: 81.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:43 -0700
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.8ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (85.8ms)
+Completed 200 OK in 102ms (Views: 94.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 17:11:44 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (30.6ms)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" 
+Rendered randomgenerators/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 60ms (Views: 57.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:45 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/new" for 127.0.0.1 at 2013-12-18 17:11:46 -0700
+  Processing by RandomgeneratorsController#new as HTML
+Rendered randomgenerators/new.html.haml within layouts/application (7.5ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:47 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:47 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:47 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:47 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:47 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/randomgenerators" for 127.0.0.1 at 2013-12-18 17:11:53 -0700
+  Processing by RandomgeneratorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"71VnFjOVN4CYKePp9avteL2HNvmFDl1jFBw1/NoQoJ8=", "randomgenerator"=>{"title"=>"GO", "query"=>"Living the New Life, Proclaim Christ, Growing in Christlikeness"}, "commit"=>"Save Changes"}
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "randomgenerators" ("query", "title") VALUES (?, ?)[0m  [["query", "Living the New Life, Proclaim Christ, Growing in Christlikeness"], ["title", "GO"]]
+Redirected to http://localhost:3000/randomgenerators
+Completed 302 Found in 19ms
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 17:11:53 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" 
+Rendered randomgenerators/index.html.haml within layouts/application (9.5ms)
+Completed 200 OK in 30ms (Views: 21.4ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:53 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:53 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:53 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:53 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/randomgenerators/new" for 127.0.0.1 at 2013-12-18 17:11:56 -0700
+  Processing by RandomgeneratorsController#new as HTML
+Rendered randomgenerators/new.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:11:56 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:56 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:56 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:56 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:56 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:56 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:11:56 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/randomgenerators" for 127.0.0.1 at 2013-12-18 17:12:01 -0700
+  Processing by RandomgeneratorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"71VnFjOVN4CYKePp9avteL2HNvmFDl1jFBw1/NoQoJ8=", "randomgenerator"=>{"title"=>"", "query"=>"Living the New Life"}, "commit"=>"Save Changes"}
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "randomgenerators" ("query", "title") VALUES (?, ?)[0m  [["query", "Living the New Life"], ["title", ""]]
+Redirected to http://localhost:3000/randomgenerators
+Completed 302 Found in 15ms
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 17:12:01 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" 
+Rendered randomgenerators/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:02 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:02 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:02 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:02 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:02 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:02 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:02 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/randomgenerators/3" for 127.0.0.1 at 2013-12-18 17:12:04 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRandomgenerator Load (0.2ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (18.9ms)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:04 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:04 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:04 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:04 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:04 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:04 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/randomgenerators/3" for 127.0.0.1 at 2013-12-18 17:12:06 -0700
+  Processing by RandomgeneratorsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"71VnFjOVN4CYKePp9avteL2HNvmFDl1jFBw1/NoQoJ8=", "id"=>"3"}
+  [1m[36mRandomgenerator Load (0.2ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mSQL (43.2ms)[0m  DELETE FROM "randomgenerators" WHERE "randomgenerators"."id" = ?  [["id", 3]]
+Redirected to http://localhost:3000/randomgenerators
+Completed 302 Found in 68ms
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 17:12:06 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" [0m
+Rendered randomgenerators/index.html.haml within layouts/application (12.7ms)
+Completed 200 OK in 45ms (Views: 38.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:06 -0700
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:07 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:07 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:07 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:07 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:07 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:12:07 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (61.2ms)
+Completed 200 OK in 70ms (Views: 66.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:08 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:08 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:08 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:08 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:08 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:08 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (19.6ms)
+Completed 200 OK in 75ms (Views: 72.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (25.4ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:09 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (2.9ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (20.3ms)
+Completed 200 OK in 33ms (Views: 26.8ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.4ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:10 -0700
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (18.0ms)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:12:11 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:20 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:20 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:20 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:20 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:20 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:20 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:20 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:20 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:20 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (70.4ms)
+Completed 200 OK in 80ms (Views: 76.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.4ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:21 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (61.9ms)
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (35.8ms)
+Completed 200 OK in 59ms (Views: 50.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:22 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (16.6ms)
+Completed 200 OK in 31ms (Views: 27.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.1ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:24 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:24 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:24 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:24 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:24 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:24 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:24 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.2ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.1ms)
+Completed 200 OK in 25ms (Views: 21.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:25 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:26 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:26 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:26 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:26 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:26 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:26 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.7ms)
+Completed 200 OK in 25ms (Views: 22.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (87.9ms)
+Completed 200 OK in 104ms (Views: 100.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 17:29:28 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered randomgenerators/show.html.haml within layouts/application (15.7ms)
+Completed 200 OK in 25ms (Views: 21.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 17:29:28 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:28 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:28 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:28 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 17:29:28 -0700
+Served asset /application.js - 304 Not Modified (6ms)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (28.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (45.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMovies (20111119180638)
+  [1m[35m (0.4ms)[0m  CREATE TABLE "movies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "rating" varchar(255), "description" text, "release_date" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20111119180638')[0m
+Migrating to CreateRandomgenerators (20131218000239)
+  [1m[35m (0.3ms)[0m  CREATE TABLE "randomgenerators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "query" varchar(255)) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20131218000239')[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("movies")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("randomgenerators")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35mSQL (88.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "Therefore, if anyone is in Christ, he has become a new creaton. The old has passed away; behold, the new has come."], ["title", "2 Corinthians 5:17"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness."], ["title", "2 Timothy 3:16"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "If you remain in me and my words remain in you, ask whatever you wish, and it will be done for you."], ["title", "John 15:7"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "For where two or three gather in my name, there am I with them."], ["title", "Matthew 18:20"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "Come, follow me, Jesus said,and I will send you out to fish for people."], ["title", "Matthew 4:19"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "for all have sinned and fallen short of the glory of God"], ["title", "Romans 3:23"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord."], ["title", "Romans 6:23"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us."], ["title", "Romans 5:8"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "For it is by grace you have been saved, through faith, and this is not from yourselves, it is the gift of God"], ["title", "Ephesians 2:8"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God"], ["title", "John 1:12"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "write these things to you who believe in the name of the Son of God so that you may know that you have eternal life."], ["title", "1 John 5:13"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "Do you not know that your body is a temple of the Holy Spirit within you, whom you have from God?"], ["title", "1 Corinthians 3:16"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand."], ["title", "Isaiah 41:10"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "Because of the great love of the Lord we are not consumed, for his compassions never fail."], ["title", "Lamentations 3:22,23"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "You will keep in perfect peace those whose minds are steadfast, because they trust in you."], ["title", "Isaiah 26:3"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "He who did not spare his own Son, but gave him up for us all, how will he not also, along with him, graciously give us all things?"], ["title", "Romans 8:32"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "Because he himself suffered when he was tempted, he is able to help those who are being tempted."], ["title", "Hebrews 2:18"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "But seek first the kingdom of God and his righteousness, and all these things will be added to you."], ["title", "Matthew 6:33"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them."], ["title", "1 John 2:15"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "Therefore, my dear brothers and sisters, stand firm. Let nothing move you. Always give yourselves fully to the work of the Lord, because you know that your labor in the Lord is not in vain."], ["title", "1 Corinthians 15:58"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."], ["title", "Mark 10:45"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "Honor the Lord with your wealth,\n    with the firstfruits of all your crops"], ["title", " \tProverbs 3:9"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth."], ["title", "Acts 1:8"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "A new commandment I give you, that you love one another: just as I hve loved you, you are to love one another. By this, all people will know you are my disciples, if you have love for one another."], ["title", "John 13: 34-35"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others."], ["title", "Philippians 2:3-4"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "But among you there must not be even a hint of sexual immorality, or of any kind of impurity, or of greed, because these are improper for the holy people of God."], ["title", "Ephesians 5:3"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "Do not steal. Do not lie. Do not deceive one another."], ["title", "Leviticus 19:11"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "And without faith it is impossible to please God, because anyone who comes to him must believe that he exists and that he rewards those who earnestly seek him."], ["title", "Hebrews 11:6"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.; Therefore, as we have opportunity, let us do good to all people, especially to those who belong to the family of believers."], ["title", "Galatians 6:9,10"], ["updated_at", Thu, 19 Dec 2013 01:04:25 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "randomgenerators" ("query", "title") VALUES (?, ?)[0m  [["query", "Christ the Center"], ["title", "Test"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateRandomgenerators (20131218000239)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "randomgenerators"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131218000239'[0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("movies")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMovies (20111119180638)
+Migrating to CreateRandomgenerators (20131218000239)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "randomgenerators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "query" varchar(255)) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20131218000239')
+  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("movies")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("randomgenerators")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35mSQL (30.5ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "Therefore, if anyone is in Christ, he has become a new creaton. The old has passed away; behold, the new has come."], ["title", "2 Corinthians 5:17"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness."], ["title", "2 Timothy 3:16"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "If you remain in me and my words remain in you, ask whatever you wish, and it will be done for you."], ["title", "John 15:7"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "For where two or three gather in my name, there am I with them."], ["title", "Matthew 18:20"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "Come, follow me, Jesus said,and I will send you out to fish for people."], ["title", "Matthew 4:19"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "for all have sinned and fallen short of the glory of God"], ["title", "Romans 3:23"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord."], ["title", "Romans 6:23"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us."], ["title", "Romans 5:8"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "For it is by grace you have been saved, through faith, and this is not from yourselves, it is the gift of God"], ["title", "Ephesians 2:8"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God"], ["title", "John 1:12"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "write these things to you who believe in the name of the Son of God so that you may know that you have eternal life."], ["title", "1 John 5:13"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "Do you not know that your body is a temple of the Holy Spirit within you, whom you have from God?"], ["title", "1 Corinthians 3:16"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand."], ["title", "Isaiah 41:10"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "Because of the great love of the Lord we are not consumed, for his compassions never fail."], ["title", "Lamentations 3:22,23"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "You will keep in perfect peace those whose minds are steadfast, because they trust in you."], ["title", "Isaiah 26:3"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "He who did not spare his own Son, but gave him up for us all, how will he not also, along with him, graciously give us all things?"], ["title", "Romans 8:32"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "RELIANCE ON GOD'S RESOURCES"], ["release_date", "Because he himself suffered when he was tempted, he is able to help those who are being tempted."], ["title", "Hebrews 2:18"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "But seek first the kingdom of God and his righteousness, and all these things will be added to you."], ["title", "Matthew 6:33"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them."], ["title", "1 John 2:15"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "Therefore, my dear brothers and sisters, stand firm. Let nothing move you. Always give yourselves fully to the work of the Lord, because you know that your labor in the Lord is not in vain."], ["title", "1 Corinthians 15:58"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."], ["title", "Mark 10:45"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "Honor the Lord with your wealth,\n    with the firstfruits of all your crops"], ["title", " \tProverbs 3:9"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth."], ["title", "Acts 1:8"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "A new commandment I give you, that you love one another: just as I hve loved you, you are to love one another. By this, all people will know you are my disciples, if you have love for one another."], ["title", "John 13: 34-35"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others."], ["title", "Philippians 2:3-4"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "But among you there must not be even a hint of sexual immorality, or of any kind of impurity, or of greed, because these are improper for the holy people of God."], ["title", "Ephesians 5:3"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "Do not steal. Do not lie. Do not deceive one another."], ["title", "Leviticus 19:11"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "And without faith it is impossible to please God, because anyone who comes to him must believe that he exists and that he rewards those who earnestly seek him."], ["title", "Hebrews 11:6"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.; Therefore, as we have opportunity, let us do good to all people, especially to those who belong to the family of believers."], ["title", "Galatians 6:9,10"], ["updated_at", Thu, 19 Dec 2013 01:07:27 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "randomgenerators" ("query", "title") VALUES (?, ?)[0m  [["query", "Christ the Center"], ["title", "Test"]]
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:07:52 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.2ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Randomgenerator with id=2):
+  app/controllers/randomgenerators_controller.rb:4:in `show'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/randomgenerators/3" for 127.0.0.1 at 2013-12-18 18:08:04 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Randomgenerator with id=3):
+  app/controllers/randomgenerators_controller.rb:4:in `show'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-12-18 18:08:10 -0700
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Living the New Life', 'Proclaim Christ', 'Being Christ''s Disciple', 'Grow in Christlikeness', 'Reliance on God''s Resources')[0m
+Rendered movies/index.html.haml within layouts/application (13.8ms)
+Completed 200 OK in 91ms (Views: 32.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:08:11 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:11 -0700
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:11 -0700
+Served asset /randomgenerator.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:11 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:11 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:11 -0700
+Served asset /randomgenerators.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:11 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BLiving+the+New+Life%5D=1&ratings%5BBeing+Christ%27s+Disciple%5D=1&ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BReliance+on+God%27s+Resources%5D=1&commit=Refresh" for 127.0.0.1 at 2013-12-18 18:08:19 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"Living the New Life"=>"1", "Being Christ's Disciple"=>"1", "Grow in Christlikeness"=>"1", "Reliance on God's Resources"=>"1"}, "commit"=>"Refresh"}
+Redirected to http://localhost:3000/movies?ratings%5BBeing+Christ%27s+Disciple%5D=1&ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BReliance+on+God%27s+Resources%5D=1
+Completed 302 Found in 1ms
+
+
+Started GET "/movies?ratings%5BBeing+Christ%27s+Disciple%5D=1&ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BReliance+on+God%27s+Resources%5D=1" for 127.0.0.1 at 2013-12-18 18:08:19 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"Being Christ's Disciple"=>"1", "Grow in Christlikeness"=>"1", "Living the New Life"=>"1", "Reliance on God's Resources"=>"1"}}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Being Christ''s Disciple', 'Grow in Christlikeness', 'Living the New Life', 'Reliance on God''s Resources')
+Rendered movies/index.html.haml within layouts/application (8.7ms)
+Completed 200 OK in 20ms (Views: 16.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:08:19 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:19 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:19 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:19 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:19 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:19 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:19 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1&ratings%5BBeing+Christ%27s+Disciple%5D=1&ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BReliance+on+God%27s+Resources%5D=1&commit=Refresh" for 127.0.0.1 at 2013-12-18 18:08:22 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"Living the New Life"=>"1", "Proclaim Christ"=>"1", "Being Christ's Disciple"=>"1", "Grow in Christlikeness"=>"1", "Reliance on God's Resources"=>"1"}, "commit"=>"Refresh"}
+Redirected to http://localhost:3000/movies?ratings%5BBeing+Christ%27s+Disciple%5D=1&ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1&ratings%5BReliance+on+God%27s+Resources%5D=1
+Completed 302 Found in 1ms
+
+
+Started GET "/movies?ratings%5BBeing+Christ%27s+Disciple%5D=1&ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1&ratings%5BReliance+on+God%27s+Resources%5D=1" for 127.0.0.1 at 2013-12-18 18:08:22 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"Being Christ's Disciple"=>"1", "Grow in Christlikeness"=>"1", "Living the New Life"=>"1", "Proclaim Christ"=>"1", "Reliance on God's Resources"=>"1"}}
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Being Christ''s Disciple', 'Grow in Christlikeness', 'Living the New Life', 'Proclaim Christ', 'Reliance on God''s Resources')[0m
+Rendered movies/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 157ms (Views: 144.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" 
+Rendered randomgenerators/index.html.haml within layouts/application (6.6ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:08:23 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 18:08:25 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (65.2ms)
+Completed 500 Internal Server Error in 72ms
+
+ActionView::Template::Error (undefined method `rating' for nil:NilClass):
+    9:     Verse:
+    10:     - verse = @randomgenerator.generate_verse()
+    11:   %li
+    12:     = verse.rating
+    13:   %li
+    14:     = verse.title
+    15:   %li
+  app/views/randomgenerators/show.html.haml:12:in `_app_views_randomgenerators_show_html_haml__449299819_80493900'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateRandomgenerators (20131218000239)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "randomgenerators"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131218000239'[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("movies")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMovies (20111119180638)
+Migrating to CreateRandomgenerators (20131218000239)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "randomgenerators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "query" varchar(255)) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20131218000239')
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("movies")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("randomgenerators")
+  [1m[36m (0.8ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35mSQL (29.8ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "Therefore, if anyone is in Christ, he has become a new creaton. The old has passed away; behold, the new has come."], ["title", "2 Corinthians 5:17"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness."], ["title", "2 Timothy 3:16"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "If you remain in me and my words remain in you, ask whatever you wish, and it will be done for you."], ["title", "John 15:7"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "For where two or three gather in my name, there am I with them."], ["title", "Matthew 18:20"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Living the New Life"], ["release_date", "Come, follow me, Jesus said,and I will send you out to fish for people."], ["title", "Matthew 4:19"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "for all have sinned and fallen short of the glory of God"], ["title", "Romans 3:23"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord."], ["title", "Romans 6:23"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us."], ["title", "Romans 5:8"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "For it is by grace you have been saved, through faith, and this is not from yourselves, it is the gift of God"], ["title", "Ephesians 2:8"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God"], ["title", "John 1:12"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Proclaim Christ"], ["release_date", "write these things to you who believe in the name of the Son of God so that you may know that you have eternal life."], ["title", "1 John 5:13"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Reliance on God's Resources"], ["release_date", "Do you not know that your body is a temple of the Holy Spirit within you, whom you have from God?"], ["title", "1 Corinthians 3:16"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Reliance on God's Resources"], ["release_date", "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand."], ["title", "Isaiah 41:10"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Reliance on God's Resources"], ["release_date", "Because of the great love of the Lord we are not consumed, for his compassions never fail."], ["title", "Lamentations 3:22,23"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Reliance on God's Resources"], ["release_date", "You will keep in perfect peace those whose minds are steadfast, because they trust in you."], ["title", "Isaiah 26:3"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Reliance on God's Resources"], ["release_date", "He who did not spare his own Son, but gave him up for us all, how will he not also, along with him, graciously give us all things?"], ["title", "Romans 8:32"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Reliance on God's Resources"], ["release_date", "Because he himself suffered when he was tempted, he is able to help those who are being tempted."], ["title", "Hebrews 2:18"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "But seek first the kingdom of God and his righteousness, and all these things will be added to you."], ["title", "Matthew 6:33"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them."], ["title", "1 John 2:15"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "Therefore, my dear brothers and sisters, stand firm. Let nothing move you. Always give yourselves fully to the work of the Lord, because you know that your labor in the Lord is not in vain."], ["title", "1 Corinthians 15:58"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."], ["title", "Mark 10:45"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "Honor the Lord with your wealth,\n    with the firstfruits of all your crops"], ["title", " \tProverbs 3:9"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Being Christ's Disciple"], ["release_date", "But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth."], ["title", "Acts 1:8"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "A new commandment I give you, that you love one another: just as I hve loved you, you are to love one another. By this, all people will know you are my disciples, if you have love for one another."], ["title", "John 13: 34-35"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others."], ["title", "Philippians 2:3-4"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "But among you there must not be even a hint of sexual immorality, or of any kind of impurity, or of greed, because these are improper for the holy people of God."], ["title", "Ephesians 5:3"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "Do not steal. Do not lie. Do not deceive one another."], ["title", "Leviticus 19:11"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "And without faith it is impossible to please God, because anyone who comes to him must believe that he exists and that he rewards those who earnestly seek him."], ["title", "Hebrews 11:6"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00], ["description", nil], ["rating", "Grow in Christlikeness"], ["release_date", "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.; Therefore, as we have opportunity, let us do good to all people, especially to those who belong to the family of believers."], ["title", "Galatians 6:9,10"], ["updated_at", Thu, 19 Dec 2013 01:09:53 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "randomgenerators" ("query", "title") VALUES (?, ?)[0m  [["query", "Living the New Life"], ["title", "Test"]]
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 18:10:19 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.2ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (2.0ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (39.7ms)
+Completed 200 OK in 326ms (Views: 320.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:10:22 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:22 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:22 -0700
+Served asset /randomgenerators.js - 304 Not Modified (98ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:22 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:22 -0700
+Served asset /randomgenerator.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:22 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (23.8ms)
+Completed 200 OK in 34ms (Views: 30.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+Served asset /randomgenerators.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (62.7ms)
+Completed 200 OK in 72ms (Views: 68.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:10:25 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (17.8ms)
+Completed 200 OK in 28ms (Views: 23.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (65.0ms)
+Completed 200 OK in 75ms (Views: 71.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (38.2ms)
+Completed 200 OK in 58ms (Views: 49.8ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:27 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:28 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 18:10:28 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[36mRandomgenerator Load (0.2ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" [0m
+Rendered randomgenerators/index.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:10:28 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:28 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:28 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:28 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:28 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-12-18 18:10:31 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies?ratings%5BBeing+Christ%27s+Disciple%5D=1&ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1&ratings%5BReliance+on+God%27s+Resources%5D=1
+Completed 302 Found in 1ms
+
+
+Started GET "/movies?ratings%5BBeing+Christ%27s+Disciple%5D=1&ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1&ratings%5BReliance+on+God%27s+Resources%5D=1" for 127.0.0.1 at 2013-12-18 18:10:31 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"Being Christ's Disciple"=>"1", "Grow in Christlikeness"=>"1", "Living the New Life"=>"1", "Proclaim Christ"=>"1", "Reliance on God's Resources"=>"1"}}
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Being Christ''s Disciple', 'Grow in Christlikeness', 'Living the New Life', 'Proclaim Christ', 'Reliance on God''s Resources')
+Rendered movies/index.html.haml within layouts/application (57.6ms)
+Completed 200 OK in 85ms (Views: 66.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:10:31 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:31 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:31 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:31 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:31 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:31 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1&ratings%5BGrow+in+Christlikeness%5D=1&commit=Refresh" for 127.0.0.1 at 2013-12-18 18:10:51 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"Living the New Life"=>"1", "Proclaim Christ"=>"1", "Grow in Christlikeness"=>"1"}, "commit"=>"Refresh"}
+Redirected to http://localhost:3000/movies?ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1
+Completed 302 Found in 1ms
+
+
+Started GET "/movies?ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1" for 127.0.0.1 at 2013-12-18 18:10:51 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"Grow in Christlikeness"=>"1", "Living the New Life"=>"1", "Proclaim Christ"=>"1"}}
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Grow in Christlikeness', 'Living the New Life', 'Proclaim Christ')[0m
+Rendered movies/index.html.haml within layouts/application (8.7ms)
+Completed 200 OK in 24ms (Views: 18.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:10:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:51 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:51 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:51 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:10:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 18:11:04 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" 
+Rendered randomgenerators/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:04 -0700
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:04 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:04 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:04 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:04 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:04 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/new" for 127.0.0.1 at 2013-12-18 18:11:06 -0700
+  Processing by RandomgeneratorsController#new as HTML
+Rendered randomgenerators/new.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:06 -0700
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:06 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:06 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:06 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:06 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:06 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/randomgenerators" for 127.0.0.1 at 2013-12-18 18:11:17 -0700
+  Processing by RandomgeneratorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"71VnFjOVN4CYKePp9avteL2HNvmFDl1jFBw1/NoQoJ8=", "randomgenerator"=>{"title"=>"Larry", "query"=>"Proclaim Christ, Being Christ's Disciple"}, "commit"=>"Save Changes"}
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "randomgenerators" ("query", "title") VALUES (?, ?)[0m  [["query", "Proclaim Christ, Being Christ's Disciple"], ["title", "Larry"]]
+Redirected to http://localhost:3000/randomgenerators
+Completed 302 Found in 19ms
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 18:11:17 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[35mRandomgenerator Load (0.1ms)[0m  SELECT "randomgenerators".* FROM "randomgenerators" 
+Rendered randomgenerators/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 26ms (Views: 15.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:17 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:17 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:17 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:17 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:17 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:17 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:17 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:18 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (1.0ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (18.7ms)
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:18 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:18 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:18 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:18 -0700
+Served asset /randomgenerators.js - 304 Not Modified (78ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:18 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:18 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:19 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:28 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (17.7ms)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:28 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:28 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:28 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:28 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:28 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:30 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (63.4ms)
+Completed 200 OK in 73ms (Views: 69.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:30 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:30 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:30 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:30 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:30 -0700
+Served asset /randomgenerator.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:30 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:30 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:31 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (24.1ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:31 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:31 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:31 -0700
+Served asset /randomgenerators.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:31 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:31 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:31 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:32 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (68.3ms)
+Completed 200 OK in 78ms (Views: 74.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:32 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:32 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:32 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:32 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:32 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:42 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (17.4ms)
+Completed 200 OK in 27ms (Views: 23.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:42 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:42 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:42 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:42 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:42 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:43 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (20.4ms)
+Completed 200 OK in 30ms (Views: 26.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:43 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:43 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:43 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:43 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:43 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:44 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 29ms (Views: 23.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:44 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:44 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:44 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:44 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:44 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:44 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:45 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.0ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (17.9ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:45 -0700
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:45 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:45 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:45 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:45 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:45 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:45 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 74ms (Views: 71.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:46 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:47 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.9ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (65.7ms)
+Completed 200 OK in 76ms (Views: 72.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:47 -0700
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:47 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:47 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:47 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:47 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:47 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:47 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (17.3ms)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (77.8ms)
+Completed 200 OK in 98ms (Views: 90.2ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:48 -0700
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (18.0ms)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (20.5ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:49 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (2.8ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (31.7ms)
+Completed 200 OK in 52ms (Views: 46.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /randomgenerator.js - 304 Not Modified (65ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:50 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (17.2ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+  Processing by RandomgeneratorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered randomgenerators/show.html.haml within layouts/application (73.2ms)
+Completed 200 OK in 84ms (Views: 79.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/randomgenerators/2" for 127.0.0.1 at 2013-12-18 18:11:54 -0700
+  Processing by RandomgeneratorsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"71VnFjOVN4CYKePp9avteL2HNvmFDl1jFBw1/NoQoJ8=", "id"=>"2"}
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" WHERE "randomgenerators"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mSQL (29.7ms)[0m  DELETE FROM "randomgenerators" WHERE "randomgenerators"."id" = ?  [["id", 2]]
+Redirected to http://localhost:3000/randomgenerators
+Completed 302 Found in 44ms
+
+
+Started GET "/randomgenerators" for 127.0.0.1 at 2013-12-18 18:11:54 -0700
+  Processing by RandomgeneratorsController#index as HTML
+  [1m[36mRandomgenerator Load (0.1ms)[0m  [1mSELECT "randomgenerators".* FROM "randomgenerators" [0m
+Rendered randomgenerators/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 24ms (Views: 17.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:11:54 -0700
+Served asset /application.css - 304 Not Modified (70ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:54 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:54 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:54 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:54 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:54 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:11:55 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-12-18 18:12:06 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies?ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1
+Completed 302 Found in 1ms
+
+
+Started GET "/movies?ratings%5BGrow+in+Christlikeness%5D=1&ratings%5BLiving+the+New+Life%5D=1&ratings%5BProclaim+Christ%5D=1" for 127.0.0.1 at 2013-12-18 18:12:06 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"Grow in Christlikeness"=>"1", "Living the New Life"=>"1", "Proclaim Christ"=>"1"}}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Grow in Christlikeness', 'Living the New Life', 'Proclaim Christ')
+Rendered movies/index.html.haml within layouts/application (11.7ms)
+Completed 200 OK in 23ms (Views: 19.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-18 18:12:06 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-18 18:12:06 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerator.js?body=1" for 127.0.0.1 at 2013-12-18 18:12:06 -0700
+Served asset /randomgenerator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators.js?body=1" for 127.0.0.1 at 2013-12-18 18:12:06 -0700
+Served asset /randomgenerators.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/randomgenerators_controller.js?body=1" for 127.0.0.1 at 2013-12-18 18:12:06 -0700
+Served asset /randomgenerators_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-18 18:12:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-18 18:12:06 -0700
+Served asset /application.js - 304 Not Modified (0ms)
