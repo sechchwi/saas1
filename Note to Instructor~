@@ -1,0 +1,3 @@
+We couldn't implement user login functionality because we ran out of time.
+
+We changed the layouts of the pages; we put the random generators and bible verses on seperate index pages and linked them because our original design, which had them both on the same page, violated the design conventions of Model-View-Controller. We have two models (Verses, disguised as "Movies", and Random Generator) and five views.
